@@ -1,0 +1,2745 @@
+... logging to /home/michael/.ros/log/7b570468-f39f-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-6269.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33908/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6287][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 7b570468-f39f-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [6302][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/f825f9fe-f39f-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-6707.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46073/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6717][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to f825f9fe-f39f-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [6730][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/a5758a84-f3a0-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-7116.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39383/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [7126][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to a5758a84-f3a0-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [7139][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/e0bf9174-f577-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-15644.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:43694/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [15654][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to e0bf9174-f577-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [15667][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/9e9bbfa6-f578-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-16126.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46772/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [16136][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 9e9bbfa6-f578-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [16149][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/65b32096-f57b-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-16605.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37857/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [16615][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 65b32096-f57b-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [16628][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/b7886dca-f57d-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-17459.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39366/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [17469][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to b7886dca-f57d-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [17482][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+Unhandled exception in thread started by 
+sys.excepthook is missing
+lost sys.stderr
+... logging to /home/michael/.ros/log/36036588-f57e-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-17892.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42299/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [17904][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 36036588-f57e-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [17917][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/6e23a59a-f57e-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-18247.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34084/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [18257][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 6e23a59a-f57e-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [18270][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/f869647e-f57e-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-18654.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37126/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [18664][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to f869647e-f57e-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [18677][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/6d06e02c-f57f-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-19480.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33363/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [19490][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 6d06e02c-f57f-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [19503][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/b0c539ac-f580-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-19951.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40369/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [19961][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to b0c539ac-f580-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [19974][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/98d11d3c-f582-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-20763.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39763/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [20773][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 98d11d3c-f582-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [20786][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/f58b5baa-f582-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-21085.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38046/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [21095][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to f58b5baa-f582-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [21108][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/c3285222-f58b-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-22503.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40451/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [22513][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to c3285222-f58b-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [22526][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/d8796800-f58b-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-22732.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:44604/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [22742][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to d8796800-f58b-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [22755][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/fe7f30a2-f58b-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-22963.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34893/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [22973][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to fe7f30a2-f58b-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [22986][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/2031feb4-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-23192.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35209/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [23202][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 2031feb4-f58c-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [23215][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-23732.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35770/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-23993.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:43189/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-24335.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41149/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-24770.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41072/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-25224.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37500/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-25726.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:32835/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-26237.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45757/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-26736.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35476/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-28532.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35738/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-28923.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39554/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-29483.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35432/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-32155.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41397/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-32739.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41419/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-935.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35081/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+Exception in thread ProcessMonitor-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 537, in run
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 629, in _post_run
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'info'
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-1942.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40631/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+Exception in thread ProcessMonitor-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 537, in run
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 629, in _post_run
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'info'
+[31m[rosout-1] process has died [pid 23451, exit code -15, cmd /opt/ros/kinetic/lib/rosout/rosout __name:=rosout __log:=/home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/rosout-1.log].
+log file: /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/rosout-1*.log[0m
+... logging to /home/michael/.ros/log/2c9ed5c8-f58c-11ea-9678-34028620a30a/roslaunch-michael-X1-u16-23428.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33207/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [23438][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 2c9ed5c8-f58c-11ea-9678-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [23451][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/f5b07ec4-f5e3-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-2604.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45196/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [2616][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to f5b07ec4-f5e3-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [2633][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/09e22870-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-2905.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33497/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [2915][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 09e22870-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [2928][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/26729ed4-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-3226.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39731/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [3236][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 26729ed4-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [3249][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/2cf27b6c-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-3337.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41529/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [3347][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 2cf27b6c-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [3360][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/40c27a2a-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-3480.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35036/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [3490][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 40c27a2a-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [3503][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/4480c90a-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-3589.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33598/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [3599][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 4480c90a-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [3612][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/5a4449f6-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-3838.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46788/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [3848][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 5a4449f6-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [3861][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/61c8c486-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-4075.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36667/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4085][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 61c8c486-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [4098][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/6bfa2800-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-4299.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46264/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4309][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 6bfa2800-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [4322][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/74374c96-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-4528.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35195/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4538][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 74374c96-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [4551][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/8cccfa9e-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-4851.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:32813/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4861][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 8cccfa9e-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [4874][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/a0860ba2-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-5155.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46544/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5165][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to a0860ba2-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [5178][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/daf3fcfe-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-5463.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42355/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5473][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to daf3fcfe-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [5486][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/e963981c-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-5968.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:32934/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/e963981c-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-6320.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:44829/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+... logging to /home/michael/.ros/log/e963981c-f5e4-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-5720.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39438/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5730][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to e963981c-f5e4-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [5743][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-7162.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46769/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+Exception in thread ProcessMonitor-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 537, in run
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/pmon.py", line 629, in _post_run
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'info'
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-7475.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45511/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-7866.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39508/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-8288.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39400/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-8693.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45547/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-9068.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39774/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-9453.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:43204/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-9855.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:44213/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-9946.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38049/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-10123.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36235/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-10409.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42606/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-10717.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34634/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-11025.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42669/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-11332.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36620/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-12627.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42922/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-12971.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45711/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+... logging to /home/michael/.ros/log/32eb29fa-f5e5-11ea-8424-34028620a30a/roslaunch-michael-X1-u16-6816.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40329/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6826][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 32eb29fa-f5e5-11ea-8424-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [6839][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/michael/.ros/log/0dc55e96-f5ec-11ea-9fc7-34028620a30a/roslaunch-michael-X1-u16-2328.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41971/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [2348][0m
+[1mROS_MASTER_URI=http://michael-X1-u16:11311/[0m
+]2;roscore http://michael-X1-u16:11311/
+[1msetting /run_id to 0dc55e96-f5ec-11ea-9fc7-34028620a30a[0m
+[1mprocess[rosout-1]: started with pid [2361][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-3420.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34979/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-3804.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42104/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-4066.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:44014/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-5395.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40429/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-5602.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42769/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-5948.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:43584/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-6247.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46846/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-6605.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39680/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-7002.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37371/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-7299.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42890/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-7613.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38952/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-8171.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34580/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-8511.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38475/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-8780.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36334/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-9161.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35788/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-9485.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37354/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-9805.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34871/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-10126.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36465/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-10427.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:33297/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-10725.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41383/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-11023.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42742/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-11335.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:46654/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-11647.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34088/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-11980.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34050/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-12301.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41594/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-12624.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42582/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-12869.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36943/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-13114.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38936/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-13377.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41910/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-13620.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37181/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-13867.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:37188/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-14175.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41665/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-14543.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:35104/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-14891.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:38477/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-15232.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:39760/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-15609.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:41988/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-15918.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:36540/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-16282.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34635/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-16652.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:45650/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-16956.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:34791/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-17441.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42794/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-17983.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:42662/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+
+[31mroscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://michael-X1-u16:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/michael/.ros/log/f684955e-fe05-11ea-a558-34028620a30a/roslaunch-michael-X1-u16-18332.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://michael-X1-u16:40223/[0m
+ros_comm version 1.12.2
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.2
+
+NODES
+

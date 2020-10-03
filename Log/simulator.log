@@ -1,0 +1,789 @@
+Traceback (most recent call last):
+  File "lib/farduino.py", line 16, in <module>
+    from render import Terrarium
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 4, in <module>
+    from direct.showbase.ShowBase import ShowBase
+ImportError: No module named direct.showbase.ShowBase
+Traceback (most recent call last):
+  File "lib/farduino.py", line 16, in <module>
+    from render import Terrarium
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 4, in <module>
+    from direct.showbase.ShowBase import ShowBase
+ImportError: No module named direct.showbase.ShowBase
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599972232.777298] [946702935.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599972267.038892] [946702969.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599973343.256511] [946702837.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-24:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+
+* interrupt by keyboard
+Exception in thread Thread-3 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 166, in run
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'error'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599973439.810138] [946744300.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_bounds_update == _cdata->_next_update at line 1506 of panda/src/pgraph/pandaNode.I
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-28:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 366, in reRenderPlants
+    baseStem.setColor(sr, sg, sb, 1)
+AssertionError: _cdata->_last_bounds_update == _cdata->_next_update at line 1506 of panda/src/pgraph/pandaNode.I
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/ShowBase.py", line 2020, in __igLoop
+    self.graphicsEngine.renderFrame()
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+:task(error): Exception occurred in PythonTask igLoop
+Traceback (most recent call last):
+  File "lib/farduino.py", line 246, in <module>
+    renderer.run()
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/ShowBase.py", line 3152, in run
+    self.taskMgr.run()
+  File "/usr/local/lib/python2.7/dist-packages/direct/task/Task.py", line 541, in run
+    self.step()
+  File "/usr/local/lib/python2.7/dist-packages/direct/task/Task.py", line 495, in step
+    self.mgr.poll()
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/ShowBase.py", line 2020, in __igLoop
+    self.graphicsEngine.renderFrame()
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599973711.461636] [946734700.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599973797.607782] [946757825.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599973802.113244] [946758275.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599979227.566344] [946742800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-28:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 366, in reRenderPlants
+    baseStem.setColor(sr, sg, sb, 1)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599979719.114183] [946702817.500000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599979785.974334] [946702801.500000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599979785.974757] [946702801.500000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599979785.974797] [946702801.500000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1599979785.989992] [946702801.500000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1599980175.736930] [946733185.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-40:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 366, in reRenderPlants
+    baseStem.setColor(sr, sg, sb, 1)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+[WARN] [WallTime: 1599980277.078010] [946718176.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-40:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+[WARN] [WallTime: 1600015693.015198] [946830759.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600015693.706738] [946830760.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600015698.877659] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600016034.648805] [947344859.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600016233.445462] [946959419.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016233.452783] [946959419.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-42:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 363, in reRenderPlants
+    testPlant.node.setHpr(testPlant.rotation)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600016680.200859] [946707800.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016680.200955] [946707800.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016680.203305] [946707800.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-48:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600016694.059721] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016694.754361] [946702875.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016694.756295] [946702875.750000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-52:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600016777.164642] [946772113.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600016777.469267] [946703050.250000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600017443.860515] [946712800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600017506.562185] [946706500.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600017507.241802] [946706675.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600017507.241926] [946706675.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600017507.243099] [946706675.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600017538.722037] [946715925.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600017542.259676] [946747850.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600017742.942523] [946712800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600017755.460845] [946717800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 366, in reRenderPlants
+    baseStem.setColor(sr, sg, sb, 1)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600915399.230740] [946914875.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600915437.209671] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600915437.225966] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-30:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 362, in reRenderPlants
+    baseStem.setScale(.5 + .5 * stemFrac, .5 + .5 * stemFrac, stemFrac )
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-32:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 363, in reRenderPlants
+    testPlant.node.setHpr(testPlant.rotation)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 261, in loadModels
+    self.plants += [plant.Radish(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 342, in __init__
+    super(Radish, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 261, in loadModels
+    self.plants += [plant.Radish(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 342, in __init__
+    super(Radish, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 261, in loadModels
+    self.plants += [plant.Radish(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 342, in __init__
+    super(Radish, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 261, in loadModels
+    self.plants += [plant.Radish(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 342, in __init__
+    super(Radish, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Traceback (most recent call last):
+  File "lib/farduino.py", line 218, in <module>
+    renderer = Terrarium(args.graphics, t0, age, droop, lankiness, plant_health)
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 78, in __init__
+    self.loadModels()  
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 253, in loadModels
+    self.plants += [plant.Lettuce(node, self.lastTime, self.droop, self.lankiness, self.plant_health, self)]
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 354, in __init__
+    super(Lettuce, self).__init__(node, age, droop, lank, h, showbase)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 227, in __init__
+    self.grow(temp, gro, minimum_light + 100)
+  File "/home/michael/Terrabot/TerraBot/lib/plant.py", line 302, in grow
+    if env_params['humidity'] < optimal_humidity[0]:
+KeyError: 'humidity'
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600917243.000827] [0.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 366, in reRenderPlants
+    baseStem.setColor(sr, sg, sb, 1)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1495 of panda/src/pgraph/pandaNode.I
+
+* interrupt by keyboard
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-36:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 360, in reRenderPlants
+    baseStem.reparentTo(testPlant.node)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+
+* interrupt by keyboard
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600917586.115374] [946762200.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+Assertion failed: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "lib/farduino.py", line 200, in sim_loop
+    renderer.update_env_params(env.params, speedup, env.light_average())
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 416, in update_env_params
+    self.reRenderPlants()
+  File "/home/michael/Terrabot/TerraBot/lib/render.py", line 363, in reRenderPlants
+    testPlant.node.setHpr(testPlant.rotation)
+AssertionError: _cdata->_last_update == _cdata->_next_update at line 1271 of panda/src/pgraph/pandaNode.I
+
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)
+[WARN] [WallTime: 1600917807.363099] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[WARN] [WallTime: 1600917807.364529] [946702800.000000] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Known pipe types:
+  glxGraphicsPipe
+(all display modules loaded.)

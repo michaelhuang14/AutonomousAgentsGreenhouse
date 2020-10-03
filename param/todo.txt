@@ -1,0 +1,5 @@
+TEST IDEAS
+Add a test that ensures the waterlevel never falls too low over the entire course of the the simulation
+Add a test that monitors all sensors (moisture, temp, humidity) and ensures the range of conditions never varies too much.
+   Intuition that plants will react negaticely to wildy changing conditions
+Add a test that 
