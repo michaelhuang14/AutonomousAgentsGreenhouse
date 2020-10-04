@@ -50,6 +50,8 @@ def colorCorrect(image, blue_goal, green_goal, red_goal):
     A = np.zeros((9, 9), np.float)
     red_mask = cv2.rectangle(rectangle_mask, (5,5), (50,50), (255,255,255), -1)
     green_mask = cv2.rectangle(rectangle_mask, (10,10), (20,20), (255,255,255), -1)
+    blue_mask = cv2.rectangle(rectangle_mask, (10,10), (20,20), (255,255,255), -1)
+    
     # Your code goes here:
     # Fill in the rows of the matrix, according to the notes
         
