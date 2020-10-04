@@ -45,12 +45,15 @@ def colorCorrect(image, blue_goal, green_goal, red_goal):
     # Do this by solving d = A x, as per the lecture notes.
     # Note that while the lecture notes describe an affine (3x4) transform,
     #  here we have only 3 colors, so it has to be a Euclidean (3x3) tranform
-
+    rectangle_mask = np.zeros(image.shape[0:2], np.uint8)
+    
     A = np.zeros((9, 9), np.float)
+    red_mask = cv2.rectangle(rectangle_mask, (5,5), (50,50), (255,255,255), -1)
+    green_mask = cv2.rectangle(rectangle_mask, (10,10), (20,20), (255,255,255), -1)
     # Your code goes here:
     # Fill in the rows of the matrix, according to the notes
+        
     
-
     d = np.zeros((1,9))
     # Your code goes here:
     # Fill in the d vector with the "goal" colors 
