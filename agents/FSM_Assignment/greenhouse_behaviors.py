@@ -285,69 +285,99 @@ class RaiseSMoist(Behavior):
     def __init__(self):
         super(RaiseSMoist, self).__init__("RaiseMoistBehavior") #Behavior sets reasonable defaults
         #your initialization here
-        self.states = ["ready","watering", "soakingup", "BehavOff"]
+        self.states = ['ready', 'pump_on', 'pump_off', 'test_level', 'test_moist', 'BehavOff']
         self.actions = ["fsmStep", "startbehav", "stopbehav"]
 
         self.fsm = Machine(model=self, states=self.states, initial='BehavOff', ignore_invalid_triggers=True)
-        self.fsm.add_transition("startbehav", "BehavOff", "ready")#, after="turnOff")
-        self.fsm.add_transition("stopbehav", "ready", "BehavOff", after="turnOffActuator")
-        self.fsm.add_transition("stopbehav", "watering", "BehavOff", after="turnOffActuator")
-        self.fsm.add_transition("stopbehav", "soakingup", "BehavOff", after="turnOffActuator")
 
-        self.fsm.add_transition("fsmStep", "ready", "watering", conditions=["soil_too_dry"], after="water")
-        self.fsm.add_transition("fsmStep", "watering", "soakingup", conditions=["enough_water"], after="start_soaking")
-        self.fsm.add_transition("fsmStep", "soakingup", "ready", conditions=["timerdone"], after="turnOff")
+        # startbehav transition
+        self.fsm.add_transition("startbehav", "BehavOff", "ready")
+
+        # stopbehav transitions
+        self.fsm.add_transition("stopbehav", "ready", "BehavOff", after="turnOffActuator")
+        self.fsm.add_transition("stopbehav", "pump_on", "BehavOff", after="turnOffActuator")
+        self.fsm.add_transition("stopbehav", "pump_off", "BehavOff", after="turnOffActuator")
+        self.fsm.add_transition("stopbehav", "test_level", "BehavOff", after="turnOffActuator")
+        self.fsm.add_transition("stopbehav", "test_moist", "BehavOff", after="turnOffActuator")
+
+        # fsmStep transitions
+        # ready -> pump_on
+        self.fsm.add_transition("fsmStep", "ready", "pump_on", conditions=["moist0_under_limit"],
+                                after="save_level_pump_on")
+        # pump_on -> pump_off
+        self.fsm.add_transition("fsmStep", "pump_on", "pump_off", conditions=["timer_10_done"], after="pump_off")
+        # pump_off -> test_moisture
+        self.fsm.add_transition("fsmStep", "pump_off", "test_level", conditions=["timer_30_done"], after="update_today")
+        # test_level -> ready OR test_moisture
+        self.fsm.add_transition("fsmStep", "test_level", "ready", conditions=["enough_today"])
+        self.fsm.add_transition("fsmStep", "test_level", "test_moist", conditions=["timer_300_done"],
+                                unless=["enough_today"])
+        # test moisture -> pump_on OR ready
+        self.fsm.add_transition("fsmStep", "test_moist", "pump_on", conditions=["moist1_under_opt"],
+                                after="save_level_pump_on")
+        self.fsm.add_transition("fsmStep", "test_moist", "ready", unless=["moist1_under_opt"])
 
     def perceive(self):
-        self.percept = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"]) 
+        self.percept = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"])
+        # TODO(nrupani): Calculate sliding window for level and update self.percept with the estimate
+        # TODO(nrupani): What should N for the sliding window be?
         
     def act(self):
         #your code here
         self.fsmStep()
         
-    #your conditions here
-    def soil_too_dry(self):
-        (t,soil,water) = self.percept
-        if soil < limits['moisture'][0]:
-            #print("smoist-toodry")
-            return True
-        return False
-    
-    def water(self):
-        #print("watering") 
-        (t,soil,water) = self.percept
-        self.waterlevel = water
-        self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump":True}))
+    # conditions
+    def moist0_under_limit(self):
+        (t, soil, level) = self.percept
+        return soil[0] < limits['moisture'][0]
 
-    def enough_water(self):
-        (t,soil,water) = self.percept
-        if self.waterlevel - water > 0.5:
-           #print("finished watering")
-           return True
-        return False
-     
-    def start_soaking(self):
-        (t,soil,water) = self.percept
-        self.waittime = t
-        self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump":False}))
-   
-    def timerdone(self):
-        (t,soil,water) = self.percept
-        if t-self.waittime >= 5*60:
-            #print("soaking done") 
-            return True
-        return False
-    
-    def turnOff(self):
-        self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump":False}))
- 
+    def timer_10_done(self):
+        (t, soil, level) = self.percept
+        return t- self.timer_10 >= 10
+
+    def timer_30_done(self):
+        (t, soil, level) = self.percept
+        return t- self.timer_30 >= 30
+
+    def enough_today(self):
+        (t, soil, level) = self.percept
+        return self.today + (self.start_level - level) >= 4.5
+        # TODO(nrupani): Init self.today = 0 at the start of each day- how to do this? edge cases (e.g. mid-watering)?
+
+    def start_timer_300(self):
+        (t, soil, level) = self.percept
+        self.timer_300 = t
+
+    def timer_300_done(self):
+        (t, soil, level) = self.percept
+        t - self.timer_300 >= 300
+
+    # actions
+    def save_level_pump_on(self):
+        (t, soil, level) = self.percept
+        # saving water level
+        self.start_level = level
+        # turning pump on
+        self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": True}))
+        # starting 10 second timer
+        self.timer_10 = t
+
+    def pump_off(self):
+        self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": False}))
+        # starting 30 second timer
+        (t, soil, level) = self.percept
+        self.timer_30 = t
+
     def turnOffActuator(self):
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump":False}))
 
     def start(self):
         self.startbehav()
+
     def stop(self):
         self.stopbehav()
+
+
 '''
 Soil moisture should be lower than limits["moisture"]
 '''

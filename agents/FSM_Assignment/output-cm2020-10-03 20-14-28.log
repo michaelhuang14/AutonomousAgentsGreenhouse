@@ -1,0 +1,18 @@
+INFO:tests:START SMALL SIZE
+INFO:actions:{'medbuttonpressed': False, 'startbuttonpressed': False, 'podpresent': False, 'smallbuttonpressed': True, 'watertemp': 65, 'largebuttonpressed': False}
+INFO:transitions.core:Exited state empty
+INFO:transitions.core:Entered state size
+INFO:transitions.core:Executed callback 'set_size'
+INFO:actions:{'medbuttonpressed': False, 'startbuttonpressed': False, 'podpresent': True, 'smallbuttonpressed': True, 'watertemp': 65, 'largebuttonpressed': False}
+INFO:transitions.core:Exited state size
+INFO:transitions.core:Entered state ready
+INFO:actions:{'medbuttonpressed': False, 'startbuttonpressed': True, 'podpresent': True, 'smallbuttonpressed': True, 'watertemp': 65, 'largebuttonpressed': False}
+INFO:transitions.core:Exited state ready
+INFO:transitions.core:Entered state heat
+INFO:actions:2020-10-03 20:14:28.151526,START HEATING
+INFO:transitions.core:Executed callback 'start_heating'
+INFO:actions:{'medbuttonpressed': False, 'startbuttonpressed': True, 'podpresent': True, 'smallbuttonpressed': True, 'watertemp': 180, 'largebuttonpressed': False}
+INFO:transitions.core:Exited state heat
+INFO:transitions.core:Entered state disp
+INFO:actions:2020-10-03 20:14:28.152236,START DISPENSING
+INFO:transitions.core:Executed callback 'start_dispensing'
