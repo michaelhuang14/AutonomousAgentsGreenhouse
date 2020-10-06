@@ -2743,3 +2743,69 @@ PARAMETERS
 
 NODES
 
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9386.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:41407/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9570.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:40557/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9921.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:46263/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+

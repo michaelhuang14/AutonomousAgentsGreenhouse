@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-import os, sys, glob, select, signal
+import os
+import sys, glob, select, signal
 import subprocess as sp
 from std_msgs.msg import Int32,Bool,Float32,String,Int32MultiArray,Float32MultiArray, String
 import argparse, time, getpass

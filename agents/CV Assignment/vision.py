@@ -38,8 +38,13 @@ def measureHeight(foliage_mask):
     #tick_ranges_res = [[1988, 2029], [1841, 1880], [1707, 1741], [1542, 1571], [1370, 1398], [1180, 1224], [999, 1031],
                      #  [802, 838], [577, 606], [347, 372]]
 
+
     #create mask for measuring stick
     og_img = 255 - readImage('images/day02_test.jpg')
+
+    if (foliage_mask.shape != og_img.shape):
+        foliage_mask = cv2.resize(foliage_mask, (og_img.shape[1], og_img.shape[0]))
+
     stick_mask_bg = np.zeros(og_img.shape, np.uint8)
     stick_countour = np.array([[1965,279],[2030,301],[1945,2051],[1872,2046]])
     white_stick_black_bg_mask = cv2.drawContours(stick_mask_bg, [stick_countour], -1, (255,255,255), -1)
