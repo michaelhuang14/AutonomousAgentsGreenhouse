@@ -3,6 +3,7 @@ from behavior import *
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from limits import *
+from collections import deque as dq
 
 #sensor data passed into greenhouse behaviors:
 #  [unix_time, midnight_time, light, temp, humid, smoist, level]
@@ -283,8 +284,8 @@ Soil moisture should be above limits["moisture"]
 class RaiseSMoist(Behavior):
 
     def __init__(self):
-        super(RaiseSMoist, self).__init__("RaiseMoistBehavior") #Behavior sets reasonable defaults
-        #your initialization here
+        super(RaiseSMoist, self).__init__("RaiseMoistBehavior") # Behavior sets reasonable defaults
+        # your initialization here
         self.states = ['ready', 'pump_on', 'pump_off', 'test_level', 'test_moist', 'BehavOff']
         self.actions = ["fsmStep", "startbehav", "stopbehav"]
 
@@ -317,13 +318,34 @@ class RaiseSMoist(Behavior):
                                 after="save_level_pump_on")
         self.fsm.add_transition("fsmStep", "test_moist", "ready", unless=["moist1_under_opt"])
 
+        # variables
+        self.last_updated = 0
+        self.today = 0
+        self.est_moist0 = dq()
+        self.est_moist1 = dq()
+        self.est_level = dq()
+
     def perceive(self):
-        self.percept = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"])
-        # TODO(nrupani): Calculate sliding window for level and update self.percept with the estimate
-        # TODO(nrupani): What should N for the sliding window be?
-        
+        (t, raw_soil, raw_level) = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"])
+        if len(self.est_moist0) == 300:
+            self.est_moist0.pop()  # pops from right
+        if len(self.est_moist1) == 300:
+            self.est_moist1.pop()  # pops from right
+        if len(self.est_level) == 5:
+            self.est_level.pop()  # pops from right
+
+        self.est_moist0.appendleft(raw_soil)
+        self.est_moist1.appendleft(raw_soil)
+        self.est_level.appendleft(raw_level)
+
+        moist0 = sum(self.est_moist0) / len(self.est_moist0)
+        moist1 = sum(self.est_moist1) / len(self.est_moist1)
+        level = sum(self.est_level) / len(self.est_level)
+
+        self.percept = (t, [moist0, moist1], level)
+
     def act(self):
-        #your code here
+        # your code here
         self.fsmStep()
         
     # conditions
@@ -342,15 +364,14 @@ class RaiseSMoist(Behavior):
     def enough_today(self):
         (t, soil, level) = self.percept
         return self.today + (self.start_level - level) >= 4.5
-        # TODO(nrupani): Init self.today = 0 at the start of each day- how to do this? edge cases (e.g. mid-watering)?
-
-    def start_timer_300(self):
-        (t, soil, level) = self.percept
-        self.timer_300 = t
 
     def timer_300_done(self):
         (t, soil, level) = self.percept
         t - self.timer_300 >= 300
+
+    def moist1_under_opt(self):
+        (t, soil, level) = self.percept
+        return soil[1] < optimal['moisture'][0]
 
     # actions
     def save_level_pump_on(self):
@@ -367,6 +388,16 @@ class RaiseSMoist(Behavior):
         # starting 30 second timer
         (t, soil, level) = self.percept
         self.timer_30 = t
+
+    def update_today(self):
+        (t, soil, level) = self.percept
+        if t - self.last_updated >= 24 * 60 * 60:
+            self.today = 0  # reset
+
+        self.today += (self.start_level - level)
+
+        # starting 5 min timer
+        self.timer_300 = t
 
     def turnOffActuator(self):
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump":False}))
