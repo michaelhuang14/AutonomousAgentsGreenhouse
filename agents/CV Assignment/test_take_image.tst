@@ -1,10 +1,10 @@
 #BASELINE= # Use a baseline file to start right before an image is to be taken
 
-WHENEVER camera != None
+WHENEVER camera != False
   SET image = camera # Do this b/c 'camera' does not stay latched
   WAIT os.path.exists(image) FOR 30
 
-WHENEVER None != camera # Changed the order to distinguish this from above
+WHENEVER False != camera # Changed the order to distinguish this from above
   ENSURE light[0] > 20 or light[1] > 20 FOR 1 # Test right away
 
 # Count the number of pictures taken
