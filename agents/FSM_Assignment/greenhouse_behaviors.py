@@ -304,7 +304,7 @@ class RaiseSMoist(Behavior):
         # fsmStep transitions
         # ready -> pump_on
         self.fsm.add_transition("fsmStep", "ready", "pump_on", conditions=["moist0_under_limit"],
-                                after="save_level_pump_on")
+                                unless=["enough_today"], after="save_level_pump_on")
         # pump_on -> pump_off
         self.fsm.add_transition("fsmStep", "pump_on", "pump_off", conditions=["timer_10_done"], after="pump_off")
         # pump_off -> test_moisture
@@ -319,14 +319,16 @@ class RaiseSMoist(Behavior):
         self.fsm.add_transition("fsmStep", "test_moist", "ready", unless=["moist1_under_opt"])
 
         # variables
-        self.last_updated = 0
-        self.today = 0
-        self.est_moist0 = dq()
-        self.est_moist1 = dq()
-        self.est_level = dq()
+        self.last_updated = 0  # last time self.today was reset
+        self.today = 0  # how much water has been watered today
+        self.est_moist0 = dq()  # sliding window (queue) for moist[0]
+        self.est_moist1 = dq()  # sliding window (queue) for moist[1]
+        self.est_level = dq()  # sliding window (queue) for water level
+        self.start_level = 0  # starting level recorded before pump is turned on
 
     def perceive(self):
         (t, raw_soil, raw_level) = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"])
+        # remove oldest entry in sliding window if window is full
         if len(self.est_moist0) == 300:
             self.est_moist0.pop()  # pops from right
         if len(self.est_moist1) == 300:
@@ -334,10 +336,12 @@ class RaiseSMoist(Behavior):
         if len(self.est_level) == 5:
             self.est_level.pop()  # pops from right
 
+        # add new entry to sliding window
         self.est_moist0.appendleft(raw_soil)
         self.est_moist1.appendleft(raw_soil)
         self.est_level.appendleft(raw_level)
 
+        # calculate average of sliding window values
         moist0 = sum(self.est_moist0) / len(self.est_moist0)
         moist1 = sum(self.est_moist1) / len(self.est_moist1)
         level = sum(self.est_level) / len(self.est_level)
@@ -346,6 +350,13 @@ class RaiseSMoist(Behavior):
 
     def act(self):
         # your code here
+        (t, soil, level) = self.percept
+
+        # reset self.today and self.start_level at the start of each day
+        if t - self.last_updated >= 24 * 60 * 60:
+            self.today = 0  # reset
+            self.start_level = level  # reset
+        self.last_updated = t
         self.fsmStep()
         
     # conditions
@@ -355,15 +366,15 @@ class RaiseSMoist(Behavior):
 
     def timer_10_done(self):
         (t, soil, level) = self.percept
-        return t- self.timer_10 >= 10
+        return t - self.timer_10 >= 10
 
     def timer_30_done(self):
         (t, soil, level) = self.percept
-        return t- self.timer_30 >= 30
+        return t - self.timer_30 >= 30
 
     def enough_today(self):
         (t, soil, level) = self.percept
-        return self.today + (self.start_level - level) >= 4.5
+        return self.today >= 4.5
 
     def timer_300_done(self):
         (t, soil, level) = self.percept
@@ -391,11 +402,7 @@ class RaiseSMoist(Behavior):
 
     def update_today(self):
         (t, soil, level) = self.percept
-        if t - self.last_updated >= 24 * 60 * 60:
-            self.today = 0  # reset
-
         self.today += (self.start_level - level)
-
         # starting 5 min timer
         self.timer_300 = t
 
