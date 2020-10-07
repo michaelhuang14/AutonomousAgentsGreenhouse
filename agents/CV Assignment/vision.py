@@ -42,7 +42,90 @@ def measureHeight(foliage_mask):
     # Your code goes here:
     # Find the maximum height of plants that overlap the measuring stick
     #   in the foliage_mask
-    return height
+
+    #square: [[1959,279],[2030,301],[1945,2051],[1867,2046]]
+    #rgb ranges: bmin = 186, gmin = 177, rmin = 164
+    #tick_ranges_res = [[1988, 2029], [1841, 1880], [1707, 1741], [1542, 1571], [1370, 1398], [1180, 1224], [999, 1031],
+                     #  [802, 838], [577, 606], [347, 372]]
+
+
+    #create mask for measuring stick
+    og_img = 255 - readImage('images/day02_test.jpg')
+
+    if (foliage_mask.shape != og_img.shape):
+        foliage_mask = cv2.resize(foliage_mask, (og_img.shape[1], og_img.shape[0]))
+
+    stick_mask_bg = np.zeros(og_img.shape, np.uint8)
+    stick_countour = np.array([[1965,279],[2030,301],[1945,2051],[1872,2046]])
+    white_stick_black_bg_mask = cv2.drawContours(stick_mask_bg, [stick_countour], -1, (255,255,255), -1)
+    writeImage('images/day02_white_stick_black_bg_mask.jpg', white_stick_black_bg_mask)
+    # stick_black_bg = cv2.bitwise_and(og_img, white_stick_black_bg_mask, stick_mask_bg, None)
+    # writeImage('images/day02_stick_black_bg.jpg', stick_black_bg)
+
+    #extract lines
+    # low_rgb = np.array([186, 177, 164])
+    # high_rgb = np.array([255,255,255])
+    # lines_mask = cv2.medianBlur(cv2.inRange(stick_black_bg, low_rgb, high_rgb), 7)
+    # writeImage('images/day02_lines_mask.jpg', lines_mask)
+
+    #getting line ranges
+    # lines_mask1col = np.max(lines_mask, axis=1)
+    # print("lines mask: ", np.sum(lines_mask1col), lines_mask1col.shape, np.max(lines_mask1col))
+    # currTick = 0
+    # tick_ranges = []
+    # row = 0
+    # while row < lines_mask1col.shape[0]:
+    #     start_white = 0
+    #     end_white = 0
+    #     if lines_mask1col[row] == 255:
+    #         print("hi")
+    #         start_white = row
+    #         while lines_mask1col[row] == 255:
+    #             row +=1
+    #         end_white = row
+    #     if (end_white - start_white > 20):
+    #         tick_ranges.append([start_white, end_white])
+    #         currTick +=1
+    #     row += 1
+
+    # print(tick_ranges)
+
+    tick_ranges_res = [[1988, 2029], [1841, 1880], [1707, 1741], [1542, 1571], [1370, 1398], [1180, 1224], [999, 1031],
+                       [802, 838], [577, 606], [347, 372]]
+
+    white_stick_black_bg_mask_2d = white_stick_black_bg_mask[:,:,0]
+    #print((white_stick_black_bg_mask_2d).shape, foliage_mask.shape)
+    and_img = np.zeros(foliage_mask.shape, np.uint8)
+    res_and_img = cv2.bitwise_and(white_stick_black_bg_mask_2d, foliage_mask, and_img, None)
+    writeImage('images/day02_lines_only.jpg', white_stick_black_bg_mask_2d)
+    writeImage('images/day02_foliage_only.jpg', foliage_mask)
+    writeImage('images/day02_lines_and_foliage.jpg', res_and_img)
+
+    res_and_img_1col = np.max(res_and_img, axis=1)
+    max_height_row = 0.0
+    for row in range(res_and_img_1col.shape[0]):
+        if res_and_img_1col[row] == 255:
+            max_height_row = row
+            break
+
+    final_height = None
+    for i in range(len(tick_ranges_res) - 1):
+        currTick = tick_ranges_res[i]
+        nextTick = tick_ranges_res[i+1]
+        if max_height_row >= currTick[0] and max_height_row <= currTick[1]:
+            final_height = i
+            break
+        elif max_height_row > nextTick[1] and max_height_row < currTick[0]:
+            frac = (float)(max_height_row - nextTick[1]) / (currTick[0] - nextTick[1])
+            final_height = i + frac
+            break
+
+    if max_height_row >= tick_ranges_res[9][0] and max_height_row <= tick_ranges_res[9][1]:
+        final_height = 9
+
+    print("max_height_row: ", max_height_row)
+
+    return final_height
 
 # Use the color calibration squares to find a transformation that will
 #   color-correct the image such that the mean values of the calibration

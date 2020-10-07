@@ -2743,3 +2743,999 @@ PARAMETERS
 
 NODES
 
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9386.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:41407/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9570.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:40557/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+[31mRLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://TerraBot:11311/[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/robotanist/.ros/log/b709f9c2-07a7-11eb-b522-08002795cfb7/roslaunch-TerraBot-9921.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:46263/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+... logging to /home/robotanist/.ros/log/e558474e-07d8-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-4045.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:33095/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4055][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to e558474e-07d8-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [4069][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/8ae0b9e4-07d9-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-4284.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:39971/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4294][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 8ae0b9e4-07d9-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [4313][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/de65575a-07d9-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-4482.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:34915/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4492][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to de65575a-07d9-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [4503][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/32202ce4-07da-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-4773.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:38401/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4783][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 32202ce4-07da-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [4797][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/9303ad92-07da-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-5014.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:33153/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5024][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 9303ad92-07da-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [5038][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/d10ffad2-07da-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-5212.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:38747/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5222][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to d10ffad2-07da-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [5233][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/f28cc8a2-07da-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-5401.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:38729/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5411][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to f28cc8a2-07da-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [5422][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/4167e86c-07db-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-5596.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:45161/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5606][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 4167e86c-07db-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [5625][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/24cb3bae-07dc-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-5854.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:37893/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [5864][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 24cb3bae-07dc-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [5879][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/6ef099fe-07dc-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-6058.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:38923/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6068][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 6ef099fe-07dc-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [6079][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/b3d3d888-07dc-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-6255.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:38483/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6265][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to b3d3d888-07dc-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [6279][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/598b37bc-07dd-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-6465.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:41827/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6475][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 598b37bc-07dd-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [6486][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/a024a2c6-07dd-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-6662.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:39483/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6672][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to a024a2c6-07dd-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [6683][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/04eb14a6-07de-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-6873.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:43089/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6883][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 04eb14a6-07de-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [6894][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/3bba8ce0-07df-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-7101.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:34253/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [7112][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 3bba8ce0-07df-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [7127][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/7f8ea58c-07df-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-7365.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:34555/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [7376][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 7f8ea58c-07df-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [7389][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/aeae0722-07df-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-7587.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:36717/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [7597][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to aeae0722-07df-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [7609][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/d4e5791e-07e1-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-7854.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:37249/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [7864][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to d4e5791e-07e1-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [7875][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/5dc4ee36-07e2-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-8065.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:34645/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [8075][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 5dc4ee36-07e2-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [8086][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/8ca871c8-07e2-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-8260.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:37993/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [8270][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 8ca871c8-07e2-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [8281][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/2eb4e352-07e3-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-8516.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:45727/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [8526][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 2eb4e352-07e3-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [8537][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/8e08ee8e-07e3-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-8735.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:37511/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [8745][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 8e08ee8e-07e3-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [8756][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/c9137238-07e3-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-8959.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:33223/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [8969][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to c9137238-07e3-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [8983][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/f0f398e6-07e3-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-9151.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:46625/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9161][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to f0f398e6-07e3-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [9172][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/765d7644-07e6-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-9486.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:39261/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9496][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 765d7644-07e6-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [9510][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/a3018ea6-07e6-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-9672.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:44295/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9682][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to a3018ea6-07e6-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [9693][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/b2a8ed04-07e6-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-9872.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:41147/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9882][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to b2a8ed04-07e6-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [9893][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/cc545b4e-07e6-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-10066.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:44623/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [10076][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to cc545b4e-07e6-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [10087][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/03abd91e-07e7-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-10266.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:40631/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [10276][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 03abd91e-07e7-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [10287][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/5d573ca6-07e7-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-10511.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:42031/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [10521][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 5d573ca6-07e7-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [10532][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/robotanist/.ros/log/6a83c516-07e7-11eb-9f5d-08002795cfb7/roslaunch-TerraBot-10696.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://TerraBot:43369/[0m
+ros_comm version 1.14.9
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [10706][0m
+[1mROS_MASTER_URI=http://TerraBot:11311/[0m
+]2;roscore http://TerraBot:11311/
+[1msetting /run_id to 6a83c516-07e7-11eb-9f5d-08002795cfb7[0m
+[1mprocess[rosout-1]: started with pid [10717][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
