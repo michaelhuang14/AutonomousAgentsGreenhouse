@@ -1,6 +1,10 @@
 Part 1. # Describe your approach here
-
-
+Classify foilage first performs a median filter on the input image, with the intent of smoothing out "salt-and-pepper" noise.
+Then, it converts the image to the HSV color space. At this point, we used the provided filterColor.py to try out different HSV
+thresholds. Once we messed with the thresholds to get a stasfactory result of masking out non-foilage pixels, we saved the
+values by hard coding them in a python array. Then, we used the inRange function to generate a mask with the same dimensions 
+as the original image. Finally, we performed another median blur on the mask to get rid of any stray pixels that made it 
+past the thresholding but were not likely to be a part of foilage.
 
 Part 2. # Describe your approach here
 
