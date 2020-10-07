@@ -2,91 +2,95 @@ from hardware import *
 import rospy
 import sys, os
 from std_msgs.msg import Float32, Int32, Int32MultiArray, Float32MultiArray, Bool, String
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/../lib")
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+"/../lib")
 from terrabot_utils import time_since_midnight
 
 #sensor data passed as a file
 class ROSSensors(Sensors):
 
+    light_level = 0
+    temperature = 0
+    humidity = 0
+    moisture = 0
+    wlevel = 0
+    light_level_raw = [0, 0]
+    temperature_raw = [0, 0]
+    humidity_raw = [0, 0]
+    moisture_raw = [0, 0]
+    wlevel_raw = 0
+
     def __init__(self):
-        #your code here
-        self.light_level = 0
-        self.temp_output = 0
-        self.smoist_output = 0
-        self.level_output = 0.0
-        self.humid_output = 0
         rospy.Subscriber('light_output', Int32MultiArray, self.light_callback)
         rospy.Subscriber('temp_output', Int32MultiArray, self.temp_callback)
-        rospy.Subscriber('smoist_output', Int32MultiArray, self.smoist_callback)
         rospy.Subscriber('humid_output', Int32MultiArray, self.humid_callback)
+        rospy.Subscriber('smoist_output', Int32MultiArray, self.moist_callback)
         rospy.Subscriber('level_output', Float32, self.level_callback)
-    
 
     #your handlers here
-    def light_callback(self, light_data):
-        self.light_level = light_data.data[0]
-    def temp_callback(self, temp_data):
-        self.temp_output = temp_data.data[0]
-    def smoist_callback(self, smoist_data):
-        self.smoist_output = smoist_data.data[0]
-    def humid_callback(self, humid_data):
-        self.humid_output = humid_data.data[0]
-    def level_callback(self, level_data):
-        self.level_output = level_data.data
-    
+
     def getTime(self):
         return rospy.get_time()
 
+    def light_callback(self, data):
+        self.light_level = sum(data.data)/2.0
+        self.light_level_raw = data.data
+
+    def temp_callback(self, data):
+        self.temperature = sum(data.data)/2.0
+        self.temperature_raw = data.data
+
+    def humid_callback(self, data):
+        self.humidity = sum(data.data)/2.0
+        self.humidity_raw = data.data
+
+    def moist_callback(self, data):
+        self.moisture = sum(data.data)/2.0
+        self.moisture_raw = data.data
+
+    def level_callback(self, data):
+        self.wlevel = data.data
+        self.wlevel_raw = data.data
+
     def doSense(self):
         #update the dictionary to return your values
-        return {"unix_time":rospy.get_time(), "midnight_time":time_since_midnight(rospy.get_time()), "light":self.light_level, "temp":self.temp_output, 
-                "humid":self.humid_output, "smoist":self.smoist_output, "level":self.level_output}
+        return {"unix_time":rospy.get_time(),
+                "midnight_time":time_since_midnight(rospy.get_time()),
+                "light": self.light_level,
+                "temp":self.temperature, "humid":self.humidity,
+                "smoist":self.moisture, "level":self.wlevel,
+                "light_raw": self.light_level_raw,
+                "temp_raw":self.temperature_raw, "humid_raw":self.humidity_raw,
+                "smoist_raw":self.moisture_raw, "level_raw":self.wlevel_raw}
 
 #actuators commanded as a file
 class ROSActuators(Actuators):
 
+    actuators = {}
+
     def __init__(self):
-        #your code here
-        self.led_pub = rospy.Publisher('led_input', Int32, latch=True, queue_size=1)
-        self.wpump_pub = rospy.Publisher('wpump_input', Bool, latch=True, queue_size=1)
-        self.fan_pub = rospy.Publisher('fan_input', Bool, latch=True, queue_size=1)
-        self.ping_pub = rospy.Publisher('ping', Bool, queue_size=1)
+        self.actuators['led'] = rospy.Publisher('led_input', Int32,
+                                                latch=True, queue_size=1)
+        self.actuators['fan'] = rospy.Publisher('fan_input', Bool,
+                                                latch=True, queue_size=1)
+        self.actuators['wpump'] = rospy.Publisher('wpump_input', Bool,
+                                                  latch=True, queue_size=1)
+        self.actuators['ping'] = rospy.Publisher('ping', Bool,
+                                                  latch=True, queue_size=1)
+        self.actuators['camera'] = rospy.Publisher('camera', String,
+                                                  latch=True, queue_size=1)
 
-    def doActions(self, actions):
-        #your code here
-        (bname, time, act_dict) = actions 
-        
-        for (name, val) in act_dict.items():
-            if name == "led":
-                self.led_pub.publish(val)
-            elif name == "wpump":
-                self.wpump_pub.publish(val)
-            elif name == "fan":
-                self.fan_pub.publish(val)
-            elif name == "ping":
-                self.ping_pub.publish(val)
+    def doActions(self, actions_tuple):
+        actions = actions_tuple[2]
+        #print(actions)
+        for action in actions:
+            self.actuators[action].publish(actions[action])
 
-
-
-#####################################################
-# Code to test your callbacks
-#
-# run TerraBot and python ros_hardware.py [-s] [-a]
-# to test the sensors and actuators respectively
-#####################################################
 if __name__ == '__main__':
     rospy.set_param('use_sim_time', True)
-    rospy.init_node('testrosagent', anonymous = True)
+    rospy.init_node('greenhouseagent', anonymous = True)
     sensors = ROSSensors()
     actuators = ROSActuators()
-    acts = {'fan' : False, 'wpump' : False, 'led' : 0}
+    actuators.doActions(('test', 0, {'fan' : True, 'wpump' : True, 'led' : 200}))
     while not rospy.core.is_shutdown():
-        if "-s" in sys.argv:
-            print(sensors.doSense())
-        if "-a" in sys.argv:
-            acts["fan"] = not acts["fan"]
-            acts["wpump"] = not acts["wpump"]
-            acts["led"] = 200-acts["led"]
-            actuators.doActions(('test', 0, acts))
-        rospy.sleep(2)
+        print(sensors.doSense())
+        rospy.sleep(1)
