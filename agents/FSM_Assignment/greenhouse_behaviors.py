@@ -384,7 +384,7 @@ class RaiseSMoist(Behavior):
 
         # reset at the start of each new day
         if t - self.last_updated >= 24 * 60 * 60:
-            print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Resetting self.today")
+            #print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Resetting self.today")
             self.today = 0  # reset
             self.last_updated = t  # reset
 
@@ -417,7 +417,7 @@ class RaiseSMoist(Behavior):
     # actions
     def save_level_pump_on(self):
         (t, soil, level) = self.percept
-        print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump on")
+        #print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump on")
         # saving water level
         self.start_level = level
         # turning pump on
@@ -429,7 +429,7 @@ class RaiseSMoist(Behavior):
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": False}))
         # starting 30 second timer
         (t, soil, level) = self.percept
-        print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump off")
+        #print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump off")
         self.timer_30 = t
 
     def update_today(self):
