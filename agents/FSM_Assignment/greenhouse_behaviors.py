@@ -302,21 +302,25 @@ class RaiseSMoist(Behavior):
         self.fsm.add_transition("stopbehav", "test_moist", "BehavOff", after="turnOffActuator")
 
         # fsmStep transitions
-        # ready -> pump_on
+        # ready -> pump_on (after: save start_level, turn pump on & start 10-sec timer)
         self.fsm.add_transition("fsmStep", "ready", "pump_on", conditions=["moist0_under_limit"],
                                 unless=["enough_today"], after="save_level_pump_on")
-        # pump_on -> pump_off
+        # pump_on -> pump_off (after: turn pump off & start 30-sec timer)
         self.fsm.add_transition("fsmStep", "pump_on", "pump_off", conditions=["timer_10_done"], after="pump_off")
-        # pump_off -> test_moisture
+            
+        # pump_off -> test_moisture (after: update today & start 5-min timer)
         self.fsm.add_transition("fsmStep", "pump_off", "test_level", conditions=["timer_30_done"], after="update_today")
+        
         # test_level -> ready OR test_moisture
         self.fsm.add_transition("fsmStep", "test_level", "ready", conditions=["enough_today"])
         self.fsm.add_transition("fsmStep", "test_level", "test_moist", conditions=["timer_300_done"],
                                 unless=["enough_today"])
-        # test moisture -> pump_on OR ready
+        
+        # test_moisture -> ready
+        self.fsm.add_transition("fsmStep", "test_moist", "ready", unless=["moist1_under_opt"])
+        # test_moisture ->  pump_on (after: save start_level, turn pump on & start 10-sec timer)
         self.fsm.add_transition("fsmStep", "test_moist", "pump_on", conditions=["moist1_under_opt"],
                                 after="save_level_pump_on")
-        self.fsm.add_transition("fsmStep", "test_moist", "ready", unless=["moist1_under_opt"])
 
         # variables
         self.last_updated = 0  # last time self.today was reset
@@ -337,8 +341,8 @@ class RaiseSMoist(Behavior):
             self.est_level.pop()  # pops from right
 
         # add new entry to sliding window
-        self.est_moist0.appendleft(raw_soil)
-        self.est_moist1.appendleft(raw_soil)
+        self.est_moist0.appendleft(raw_soil[0])
+        self.est_moist1.appendleft(raw_soil[1])
         self.est_level.appendleft(raw_level)
 
         # calculate average of sliding window values
@@ -354,9 +358,9 @@ class RaiseSMoist(Behavior):
 
         # reset self.today and self.start_level at the start of each day
         if t - self.last_updated >= 24 * 60 * 60:
-            self.today = 0  # reset
-            self.start_level = level  # reset
-        self.last_updated = t
+            self.today = 0  # reset today
+            self.last_updated = t  # reset last_updated
+        
         self.fsmStep()
         
     # conditions
@@ -373,7 +377,6 @@ class RaiseSMoist(Behavior):
         return t - self.timer_30 >= 30
 
     def enough_today(self):
-        (t, soil, level) = self.percept
         return self.today >= 4.5
 
     def timer_300_done(self):
@@ -387,23 +390,24 @@ class RaiseSMoist(Behavior):
     # actions
     def save_level_pump_on(self):
         (t, soil, level) = self.percept
-        # saving water level
         self.start_level = level
-        # turning pump on
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": True}))
-        # starting 10 second timer
+        
+        # start 10 second timer
         self.timer_10 = t
 
     def pump_off(self):
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": False}))
-        # starting 30 second timer
+        
+        # start 30 second timer
         (t, soil, level) = self.percept
         self.timer_30 = t
 
     def update_today(self):
         (t, soil, level) = self.percept
         self.today += (self.start_level - level)
-        # starting 5 min timer
+        
+        # start 5 min timer
         self.timer_300 = t
 
     def turnOffActuator(self):
