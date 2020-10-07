@@ -1,2 +1,4 @@
 ('RaiseMoistBehavior', 0, {'wpump': True})
 ('RaiseMoistBehavior', 1800, {'wpump': False})
+('RaiseMoistBehavior', 36000, {'wpump': True})
+('RaiseMoistBehavior', 37800, {'wpump': False})
