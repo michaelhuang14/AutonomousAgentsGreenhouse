@@ -1,4 +1,0 @@
-('LowerTempBehavior', 32400, {'fan': True})
-('LowerTempBehavior', 43200, {'fan': False})
-('LowerTempBehavior', 46800, {'fan': True})
-('LowerTempBehavior', 68400, {'fan': False})

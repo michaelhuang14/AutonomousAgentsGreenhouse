@@ -1,2 +1,0 @@
-('LowerHumidBehavior', 36000, {'fan': True})
-('LowerHumidBehavior', 61200, {'fan': False})

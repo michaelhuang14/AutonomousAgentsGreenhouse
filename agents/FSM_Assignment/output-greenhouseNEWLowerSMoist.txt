@@ -1,2 +1,0 @@
-('LowerMoistBehavior', 46800, {'fan': True})
-('LowerMoistBehavior', 50400, {'fan': False})

@@ -5,6 +5,7 @@ import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from limits import *
 from collections import deque as dq
+from datetime import datetime
 
 # sensor data passed into greenhouse behaviors:
 #  [unix_time, midnight_time, light, temp, humid, smoist, level]
@@ -356,7 +357,7 @@ class RaiseSMoist(Behavior):
         self.start_level = 0  # starting level recorded before pump is turned on
 
     def perceive(self):
-        (t, raw_soil, raw_level) = (self.sensordata["unix_time"], self.sensordata["smoist"], self.sensordata["level"])
+        (t, raw_soil, raw_level) = (self.sensordata["unix_time"], self.sensordata["smoist_raw"], self.sensordata["level"])
         # remove oldest entry in sliding window if window is full
         if len(self.est_moist0) == 300:
             self.est_moist0.pop()  # pops from right
@@ -366,8 +367,8 @@ class RaiseSMoist(Behavior):
             self.est_level.pop()  # pops from right
 
         # add new entry to sliding window
-        self.est_moist0.appendleft(raw_soil) # TODO: raw_soil[0] ?
-        self.est_moist1.appendleft(raw_soil) # TODO: raw_soil[1] ?
+        self.est_moist0.appendleft(raw_soil[0])
+        self.est_moist1.appendleft(raw_soil[1])
         self.est_level.appendleft(raw_level)
 
         # calculate average of sliding window values
@@ -383,6 +384,7 @@ class RaiseSMoist(Behavior):
 
         # reset at the start of each new day
         if t - self.last_updated >= 24 * 60 * 60:
+            print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Resetting self.today")
             self.today = 0  # reset
             self.last_updated = t  # reset
 
@@ -415,6 +417,7 @@ class RaiseSMoist(Behavior):
     # actions
     def save_level_pump_on(self):
         (t, soil, level) = self.percept
+        print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump on")
         # saving water level
         self.start_level = level
         # turning pump on
@@ -426,6 +429,7 @@ class RaiseSMoist(Behavior):
         self.actuators.doActions((self.name, self.sensors.getTime(), {"wpump": False}))
         # starting 30 second timer
         (t, soil, level) = self.percept
+        print(datetime.fromtimestamp(t).strftime("%D %H:%M:%S") + " Turning pump off")
         self.timer_30 = t
 
     def update_today(self):

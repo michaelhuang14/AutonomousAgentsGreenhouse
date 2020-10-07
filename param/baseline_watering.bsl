@@ -1,11 +1,11 @@
 #These are the default values if not specified
 
-start = 0              # [0, inf) seconds 
-#start = 1-00:00:00    # day-hour:min:sec also works, day=1 is the first day
+start = 0              # [0, inf) seconds
+#start = 1-04:30:00    # day-hour:min:sec also works, day=1 is the first day
 
-temperature = 20        
-humidity = 50
-smoist = 800
+temperature = 26        # opt
+humidity = 70           # opt
+smoist = 425            # below limit
 wlevel = 140
 tankwater = 0
 

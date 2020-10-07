@@ -1,4 +1,0 @@
-('RaiseTempBehavior', 0, {'led': 200})
-('RaiseTempBehavior', 10800, {'led': 0})
-('RaiseTempBehavior', 45000, {'led': 200})
-('RaiseTempBehavior', 46800, {'led': 0})
